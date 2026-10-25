@@ -8,6 +8,8 @@ It is an **LFX** effect: a shader Lumit runs on the GPU in its own pipeline, on
 Windows, macOS and Linux. It installs into the official Lumit as an extension,
 and nothing in Lumit itself is changed.
 
+![A text layer turned into glass, moving over a scene](docs/shape-layer.gif)
+
 ## Installing
 
 Double-click `reaizzi-glass.lfx`. Or, in Lumit, go to
@@ -58,6 +60,30 @@ rotation. You can also choose it directly under **Shape**.
 
 - **Prism**: Refraction 90, Depth 15, Dispersion 100.
 - **Frosted**: Refraction 40, Frost 20, Light intensity 100.
+
+## Examples
+
+Every example is drawn by the effect's own shader, built the way Lumit builds
+it, in a 1920 × 1080 comp shown at a third of its size. The values in each
+caption are the ones you would type in Effect controls; everything else is at
+its default.
+
+| | |
+|---|---|
+| **Shape layer**: a text becomes glass and the glass follows it | **Any silhouette**: a logo with a hole in it |
+| ![](docs/shape-layer.gif) | ![](docs/shape-logo.gif) |
+| **Built-in shapes**: rounded rectangle and ellipse | **Refraction** |
+| ![](docs/built-in-shapes.gif) | ![](docs/refraction.gif) |
+| **Depth** | **Dispersion** |
+| ![](docs/depth.gif) | ![](docs/dispersion.gif) |
+| **Frost** | **Splay** |
+| ![](docs/frost.gif) | ![](docs/splay.gif) |
+| **Magnify** | **Magnify falloff** |
+| ![](docs/magnify.gif) | ![](docs/magnify-falloff.gif) |
+| **Edge highlight** on and off, and Rim width | **Light angle** |
+| ![](docs/edge-highlight.gif) | ![](docs/light.gif) |
+| **Tint** | **Effect scale** |
+| ![](docs/tint.gif) | ![](docs/effect-scale.gif) |
 
 ## How it works
 
