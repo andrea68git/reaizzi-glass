@@ -8,7 +8,7 @@ It is an **LFX** effect: a shader Lumit runs on the GPU in its own pipeline, on
 Windows, macOS and Linux. It installs into the official Lumit as an extension,
 and nothing in Lumit itself is changed.
 
-![A text layer turned into glass, moving over a scene](docs/shape-layer.gif)
+![Reaizzi Glass: a magnifying lens, a frosted panel and a glass title over a neon scene](docs/hero.gif)
 
 ## Installing
 
